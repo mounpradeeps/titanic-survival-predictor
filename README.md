@@ -2,7 +2,7 @@
 Machine Learning Titanic Survival Prediction App
 ## Live Demo
 
-Try the app here: PASTE_YOUR_STREAMLIT_URL
+https://titanic-survival-predictor-nwdtcgvoezv98n5cmugvs3.streamlit.app/
 
 ## Features
 - Predicts Titanic passenger survival
