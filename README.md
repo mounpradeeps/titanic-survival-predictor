@@ -28,6 +28,7 @@ Titanic passenger would survive using passenger details.
 
 ## 🌐 Live App
 
+[🚀 Try the Titanic Survival Predictor](https://titanic-survival-predictor-nwdtcgvoezv98n5cmugvs3.streamlit.app/)
 Deployed using Streamlit Community Cloud.
 
 ## ⚙️ CI/CD
