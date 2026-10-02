@@ -8,3 +8,39 @@ Try the app here: PASTE_YOUR_STREAMLIT_URL
 - Predicts Titanic passenger survival
 - Uses a trained Random Forest model
 - Built with Python and Streamlit
+# 🚢 Titanic Survival Predictor
+
+A Machine Learning project that predicts whether a
+Titanic passenger would survive using passenger details.
+
+## 🚀 Features
+
+- Predicts survival using a Random Forest model
+- Interactive Streamlit web application
+- Passenger class, sex, age, family, fare, and
+  embarkation inputs
+
+## 🧠 Machine Learning
+
+- Model: Random Forest Classifier
+- Dataset: Titanic passenger dataset
+- Evaluation: Accuracy, precision, recall, and F1-score
+
+## 🌐 Live App
+
+Deployed using Streamlit Community Cloud.
+
+## ⚙️ CI/CD
+
+- GitHub Actions runs the project test workflow
+- GitHub pushes trigger the workflow
+- Streamlit automatically deploys code changes
+
+## 🛠️ Tools
+
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Joblib
+- GitHub Actions
