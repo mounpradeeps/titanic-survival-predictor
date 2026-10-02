@@ -4,7 +4,7 @@ import joblib
 model = joblib.load("titanic_model.pkl")
 st.title("🚢 Titanic Survival Predictor — CI/CD Demo")
 st.write("Enter passenger details to predict survival.")
-st.caption("CD test: version 1")
+st.caption("CD test: version 2")
 pclass = st.selectbox("Passenger Class", [1, 2, 3])
 sex_choice = st.selectbox("Sex", ["Male", "Female"])
 sex = 0 if sex_choice == "Male" else 1
