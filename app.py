@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 model = joblib.load("titanic_model.pkl")
-st.title("🚢 Titanic Survival Predictor")
+st.title("🚢 Titanic Survival Predictor — CI/CD Demo")
 st.write("Enter passenger details to predict survival.")
 pclass = st.selectbox("Passenger Class", [1, 2, 3])
 sex_choice = st.selectbox("Sex", ["Male", "Female"])
