@@ -1,8 +1,10 @@
 import joblib
 import pandas as pd
 
-model = joblib.load("titanic_model.pkl")
+# Load the final ML pipeline
+model = joblib.load("titanic_final_pipeline.pkl")
 
+# Create a test passenger
 passenger = pd.DataFrame([{
     "Pclass": 3,
     "Sex": 0,
@@ -10,14 +12,15 @@ passenger = pd.DataFrame([{
     "SibSp": 0,
     "Parch": 0,
     "Fare": 7.25,
-    "Embarked_C": 0,
-    "Embarked_Q": 0,
-    "Embarked_S": 1
+    "Embarked": "S",
+    "Title": "Mr"
 }])
 
+# Make prediction
 prediction = model.predict(passenger)
 
+# Check prediction
 assert len(prediction) == 1
 assert prediction[0] in [0, 1]
 
-print("SUCCESS: Model loaded and prediction test passed!")
+print("SUCCESS: Final pipeline loaded and prediction test passed!")
