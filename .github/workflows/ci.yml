@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Install dependencies
         run: |
@@ -26,3 +26,7 @@ jobs:
       - name: Check Python syntax
         run: |
           python -m py_compile app.py
+
+      - name: Run model test
+        run: |
+          python test_model.py
